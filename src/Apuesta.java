@@ -9,7 +9,7 @@ import javax.swing.WindowConstants;
  * and open the template in the editor.
  */
 
-public class ventanaPrincipal extends javax.swing.JFrame {
+public class Apuesta extends javax.swing.JFrame {
 
    
     public ventanaPrincipal() 
@@ -141,7 +141,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_bResetearActionPerformed
 
    
-    public int aleatorioEntreDosNumeros(int n1, int n2)
+    public int cualquiera(int n1, int n2)
     {
         return (int)Math.floor((Math.random()*(n2-n1+1) + n1));
     }
@@ -173,7 +173,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_bRealizarActionPerformed
 
     
-    public void agregarPartido(String partido)
+    public void partidoNuevo(String partido)
     {
         DefaultListModel modelonuevo = new DefaultListModel();
 
@@ -187,7 +187,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
     }
     
   
-    public void eliminarPartido(int indice)
+    public void borraPartido(int indice)
     {
         DefaultListModel modelonuevoquiniela = new DefaultListModel();
         DefaultListModel modelonuevoresultados = new DefaultListModel();

@@ -3,7 +3,7 @@ import java.awt.event.KeyEvent;
 
 
 
-public class ventanaNuevo extends javax.swing.JFrame
+public class CrearPartido extends javax.swing.JFrame
 {
    
     
@@ -70,7 +70,7 @@ public class ventanaNuevo extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public void agregarPartido(String p)
+    public void añadePartido(String p)
     {
         v.agregarPartido(p);
         tPartido.setText("");
